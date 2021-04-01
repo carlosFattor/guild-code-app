@@ -1,0 +1,10 @@
+<ng-container>
+
+    <div *ngIf="userData$ | async as user;else userLoaded">
+        <h1>{{user | json}}</h1>
+    </div>
+
+    <ng-template #userLoaded>
+        <gc-login></gc-login>
+    </ng-template>
+</ng-container>

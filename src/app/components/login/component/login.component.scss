@@ -1,0 +1,18 @@
+.login-form {
+    display: grid;
+    justify-content: center;
+    width: 8rem;
+    text-align: center;
+    min-height: 15vh;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    
+    img {
+        margin: 0 auto;
+    }
+
+    :hover {
+        cursor: pointer;
+    }
+}
